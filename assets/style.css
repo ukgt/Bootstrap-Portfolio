@@ -31,9 +31,12 @@ body {
                  background-color: rgb(172, 130, 130);
                  }
              }
+a {
+    color:white;
+    font-size: 25px;
+}
 .list-unstyled {
      float:left;
-
 } 
 @media screen and (max-width: 640px) {
      .container{
@@ -54,6 +57,7 @@ body {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #a8cac9;
     height: 50px;
+    background-color:rgb(90, 99, 90)
 }     
