@@ -9,6 +9,11 @@
     float: right;
 }
 
+#portfolio {
+    /* height: 60px; */
+    width: 80px;
+    font-size: 14px;
+}
 @media screen and (max-width: 980px) {
      .container{
          float: none;
@@ -50,6 +55,9 @@ a {
    align-items:center;
    flex: 100%;
    max-width:100%
+}
+#resumeIcon{
+color: inherit;
 }
 .page-footer {
    text-align: center;
