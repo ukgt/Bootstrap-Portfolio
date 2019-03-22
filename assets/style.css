@@ -1,74 +1,121 @@
 .container {
-     width: 100%;
-     max-width: 980px;
-     margin: 0 auto;
-     clear: both;
-   }
-.fa-file {
-    font-size: 30px;
-    float: right;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    clear: both;
 }
 
-#portfolio {
-    /* height: 60px; */
-    width: 80px;
-    font-size: 14px;
+/* .fa-file {
+    font-size: 30px;
+    float: right;
+    margin-left: 4px;
+    padding: -8px;
+} */
+
+#gitHub {
+    float: right;
+    padding: 1px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
 }
+
+#linkedIn {
+    float: right;
+    /* padding: 8px; */
+    font-size: 40px;
+    color: #416ec0;
+    margin-right: 20px;
+    
+}
+
+/* #resumeIcon {
+    float: right;
+    /* padding: 1px; */
+    
+    
+} */
+
+#resumeText {
+    display: block;
+    font-size: 12px;
+    float: relative;
+    padding: -8px;
+}
+
+/* #portfolio {
+    /* height: 60px; */
+/* {
+width: 80px;
+font-size: 14px;
+} */
+
 @media screen and (max-width: 980px) {
-     .container{
-         float: none;
-         width: 100%;
-         background-color: lightblue;
-         }
-     }
-     @media screen and (max-width: 768px) {
-         .container{
-             float: none;
-             width: 100%;
-             background-color: lightpink;
-             }
-         }
- 
-         @media screen and (max-width: 640px) {
-             .container{
-                 float: left;
-                 width: 100%;
-                 background-color: rgb(172, 130, 130);
-                 }
-             }
+    .container {
+        float: none;
+        width: 100%;
+        background-color: lightblue;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        float: none;
+        width: 100%;
+        background-color: lightpink;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        float: left;
+        width: 100%;
+        background-color: rgb(172, 130, 130);
+    }
+}
+
 a {
-    color:white;
+    color: white;
     font-size: 25px;
 }
- 
+
 @media screen and (max-width: 640px) {
-     .container{
-         float: left;
-         width: 100%;
-         background-color: rgb(172, 130, 130);
-         }
-     }
-.contact-info{
-   text-align:center!important;
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   flex: 100%;
-   max-width:100%
+    .container {
+        float: left;
+        width: 100%;
+        background-color: rgb(172, 130, 130);
+    }
 }
-#resumeIcon{
-color: inherit;
+
+.contact-info {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+    max-width: 100%
 }
+
+#resumeIcon {
+    color: inherit;
+}
+
+#list {
+    display: block;
+}
+
 .page-footer {
-   text-align: center;
-   width: 100%;
-   padding: 30px 0;
-   clear: both;
-   font-size: 12px;
-   color: #ffffff;
-   text-align: center;
-   border-top: 8px solid #a8cac9;
-   height: 50px;
-   background-color:rgb(122, 128, 122);
-   float: bottom;
-}     
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    border-top: 8px solid #a8cac9;
+    height: 50px;
+    background-color: rgb(122, 128, 122);
+    /* float: bottom; */
+    position: relative;
+    display: block;
+}
